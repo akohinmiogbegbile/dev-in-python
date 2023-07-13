@@ -70,6 +70,6 @@ deposit_button = tk.Button(window, text="Deposit", command=deposit_money)
 deposit_button.pack()
 
 withdraw_button = tk.Button(window, text="Withdraw", command=withdraw_money)
-withdraw_button.pack()
+withdraw_button.pack(
 
 window.mainloop()
